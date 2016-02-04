@@ -37,5 +37,10 @@ func NewDB() *sql.DB {
 		panic(err)
 	}
 	
+	_, err = db.Exec("insert into books(title, author) values ('titulo', 'autor')")
+	if err != nil {
+		panic(err)
+	}
+	
 	return db
 }
