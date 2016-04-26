@@ -7,27 +7,6 @@ import (
 //TestVersion is the unit tests that this will pass
 const TestVersion = 1
 
-
-type ReadCounter interface {
-	io.Reader
-	// ReadCount returns the total number of bytes successfully read along
-	// with the total number of calls to Read().
-	ReadCount() (n int64, nops int)
-}
-
-type WriteCounter interface {
-	io.Writer
-	// WriteCount returns the total number of bytes successfully written along
-	// with the total number of calls to Write().
-	WriteCount() (n int64, nops int)
-}
-
-type ReadWriteCounter interface {
-	ReadCounter
-	WriteCounter
-}
-
-
 //readCounter counts the read accesses and how any bytes are transfered.
 type counter struct {
 	iofunc func([]byte) (int, error)
