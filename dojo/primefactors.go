@@ -1,8 +1,5 @@
 package prime
 
-//TestVersion is the version of the unit tests this will pass
-const TestVersion = 1
-
 /*Factors finds all prime factors of a number.*/
 func Factors(num int64) []int64 {
 	factors := []int64{}
