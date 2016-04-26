@@ -6,9 +6,6 @@ import (
 	"unicode"
 )
 
-//TestVersion is the unit tests that this program passes
-const TestVersion = 1
-
 /*Encode preforms square code encrytion on the alphanumeric parts of some text*/
 func Encode(text string) string {
 	plainText := cleanText(text)
