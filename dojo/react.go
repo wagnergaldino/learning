@@ -1,8 +1,5 @@
 package react
 
-//TestVersion is the unit tests this will pass.
-const TestVersion = 3
-
 //sheet is a collection of cells.
 type sheet struct {
 	cells []*cell
