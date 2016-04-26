@@ -4,9 +4,6 @@ import (
 	"io"
 )
 
-//TestVersion is the unit tests that this will pass
-const TestVersion = 1
-
 //readCounter counts the read accesses and how any bytes are transfered.
 type counter struct {
 	iofunc func([]byte) (int, error)
