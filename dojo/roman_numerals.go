@@ -5,9 +5,6 @@ import (
 	"strings"
 )
 
-//TestVersion is the unit tests that will pass.
-const TestVersion = 1
-
 //romanToDec stores a maping between roman numerals and decimal equivalents.
 var romanToDec = []struct {
 	decimal int
