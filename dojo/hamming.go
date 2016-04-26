@@ -2,9 +2,6 @@ package hamming
 
 import "fmt"
 
-//TestVersion is the unit tests that this program passes
-const TestVersion = 2
-
 /*Distance is the hamming distance between two strands of DNA
 strands must be the same length*/
 func Distance(dnaA, dnaB string) (int, *string) {
