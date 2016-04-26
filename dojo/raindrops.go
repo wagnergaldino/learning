@@ -2,9 +2,6 @@ package raindrops
 
 import "fmt"
 
-// TestVersion the version of the tests to run
-const TestVersion = 1
-
 // rain drop sounds
 var rain = make([]string, 10)
 
