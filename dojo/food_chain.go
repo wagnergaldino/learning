@@ -2,9 +2,6 @@ package foodchain
 
 import "strings"
 
-// TestVersion is the unit test version that this program is built to pass.
-const TestVersion = 1
-
 /*Verse sings a verse of "I know an old lady who swallowed a fly".*/
 func Verse(v int) string {
 	verse := "I know an old lady who swallowed " + first[v]
