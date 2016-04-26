@@ -1,8 +1,5 @@
 package wordsearch
 
-//TestVersion is the verion of the unit test that this will pass
-const TestVersion = 1
-
 //slice is a slice of the puzzle and it's starting and stopping position
 type slice struct {
 	word string
