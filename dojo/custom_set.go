@@ -5,9 +5,6 @@ import (
 	"strings"
 )
 
-/*TestVersion is the unit test this will pass.*/
-const TestVersion = 2
-
 /*Set is an unordered collection of items with only a single copy of each item.*/
 type Set map[string]bool
 
