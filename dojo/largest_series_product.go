@@ -5,9 +5,6 @@ import (
 	"strconv"
 )
 
-//TestVersion is the unit tests that these functions are designed to pass
-const TestVersion = 2
-
 /*LargestSeriesProduct finds the largest product of a sequence of digits
 of a given length, it also checks the lengths are possible*/
 func LargestSeriesProduct(number string, span int) (int, error) {
