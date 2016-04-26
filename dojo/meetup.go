@@ -5,9 +5,6 @@ import (
 	"time"
 )
 
-//TestVersion is the unit test verions that this will work for.
-const TestVersion = 1
-
 //WeekSchedule is the position of a week in the month
 type WeekSchedule int
 
