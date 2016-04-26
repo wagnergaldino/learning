@@ -2,9 +2,6 @@ package circular
 
 import "errors"
 
-//TestVersion is the unit tests that pass.
-const TestVersion = 2
-
 //Buffer is a circular ring buffer.
 type Buffer struct {
 	read, used int
