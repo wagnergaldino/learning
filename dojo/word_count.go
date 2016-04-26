@@ -2,9 +2,6 @@ package wordcount
 
 import "unicode"
 
-//TestVersion is the unit tests that this passes.
-const TestVersion = 1
-
 //Frequency tracks the occurances of strings.
 type Frequency map[string]int
 
