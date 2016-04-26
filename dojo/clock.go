@@ -2,9 +2,6 @@ package clock
 
 import "fmt"
 
-//TestVersion is the unit tests this is guarenteed to pass.
-const TestVersion = 2
-
 //Clock keeps time, limited to a day
 type Clock int
 
