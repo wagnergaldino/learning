@@ -5,9 +5,6 @@ import (
 	"sort"
 )
 
-//TestVersion is the unit test version this will pass
-const TestVersion = 2
-
 // thomas:tree-building$ go test -bench .
 // PASS
 // BenchmarkTwoTree-4             1        12256812916 ns/op
