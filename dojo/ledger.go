@@ -7,9 +7,6 @@ import (
 	"time"
 )
 
-//TestVersion is the version of the unit tests that this will pass
-const TestVersion = 2
-
 //Entry a line in a ledger
 type Entry struct {
 	Date        string // "Y-m-d"
