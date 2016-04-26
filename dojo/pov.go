@@ -1,8 +1,5 @@
 package pov
 
-//TestVersion is the unit tests that this will pass
-const TestVersion = 1
-
 //Graph is a directed graph of string nodes
 type Graph map[string][]string
 
