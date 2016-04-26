@@ -6,9 +6,6 @@ import (
 	"strings"
 )
 
-//TestVersion the version of the unit test that this will pass
-const TestVersion = 1
-
 //ordered rank of poker hands
 const (
 	highCard = iota
