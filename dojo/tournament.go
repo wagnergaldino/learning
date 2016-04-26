@@ -8,9 +8,6 @@ import (
 	"strings"
 )
 
-//TestVersion is the verion of the unit tests that this will pass
-const TestVersion = 2
-
 //scoreBoard keeps track of the score
 type scoreBoard map[string]*team
 
