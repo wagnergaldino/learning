@@ -2,9 +2,6 @@ package gigasecond
 
 import "time"
 
-// TestVersion is the version of the unit tests was designed to pass.
-const TestVersion = 2
-
 // GIGASECOND is a large number of seconds
 const GIGASECOND = time.Duration(1e9) * time.Second
 
