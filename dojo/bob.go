@@ -5,9 +5,6 @@ import (
 	"unicode"
 )
 
-//TestVersion is the test suite that this will pass
-const TestVersion = 1
-
 /*Hey responds to a greeting like a lackadaisical teenager.*/
 func Hey(greeting string) string {
 	greeting = strings.TrimSpace(greeting)
