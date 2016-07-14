@@ -1,5 +1,5 @@
 # learning
-Exercises and examples from books and tutorials
+Exercises and examples from Golang books and tutorials
 - An Introduction to Programming in Go
 - A tour of Go
 - Building Web Apps in Go
